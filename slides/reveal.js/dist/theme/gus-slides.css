@@ -130,7 +130,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   font-size: var(--r-heading3-size)
 }
 
-.reveal .slide-header {
+.reveal section .slide-header {
   display: inline-block;
   padding: 8px 20px;
   color: white;
@@ -141,12 +141,12 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   margin-bottom: 20px;
 }
 
-.reveal .slide-header.content {
-  background-color: #c0392b; /* red */
+.reveal section .slide-header.content {
+  background-color: #c0392b !important;
 }
 
-.reveal .slide-header.discussion {
-  background-color: #27ae60; /* green */
+.reveal section .slide-header.discussion {
+  background-color: #27ae60;
 }
 
 
