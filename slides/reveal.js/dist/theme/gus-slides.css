@@ -130,7 +130,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   font-size: var(--r-heading3-size)
 }
 
-.reveal section .slide-header {
+.reveal section[data-header]::before {
   display: inline-block;
   padding: 8px 20px;
   color: white;
@@ -139,16 +139,16 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-bottom: 20px;
+  content: attr(data-header-text);
 }
 
-.reveal section .slide-header.content {
-  background-color: #c0392b !important;
+.reveal section[data-header="content"]::before {
+  background-color: #c0392b;
 }
 
-.reveal section .slide-header.discussion {
+.reveal section[data-header="discussion"]::before {
   background-color: #27ae60;
 }
-
 
 /*********************************************
  * OTHER
