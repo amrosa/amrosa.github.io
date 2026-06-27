@@ -130,18 +130,23 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   font-size: var(--r-heading3-size)
 }
 
-.reveal .slides section[data-color="red"] h2 {
-  background: #c62828;
+.reveal .slide-header {
+  display: inline-block;
+  padding: 8px 20px;
   color: white;
-  padding: 10px;
-  border-radius: 6px;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 20px;
 }
 
-.reveal section.green h2 {
-  background: #2e7d32;
-  color: white;
-  padding: 10px;
-  border-radius: 6px;
+.reveal .slide-header.content {
+  background-color: #c0392b; /* red */
+}
+
+.reveal .slide-header.discussion {
+  background-color: #27ae60; /* green */
 }
 
 
