@@ -130,6 +130,21 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   font-size: var(--r-heading3-size)
 }
 
+.reveal section.red h2 {
+  background: #c62828;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.reveal section.green h2 {
+  background: #2e7d32;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+
 /*********************************************
  * OTHER
  *********************************************/
